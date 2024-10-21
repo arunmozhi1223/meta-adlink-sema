@@ -56,7 +56,7 @@ FILES_SOLIBSDEV = ""
 do_package_qa() {
 }
 
-INSANE_SKIP_${PN} = "already-stripped"
+INSANE_SKIP:${PN} = "already-stripped"
 
 KERNEL_MODULE_AUTOLOAD += "\
 adl-ec \
